@@ -98,11 +98,25 @@ python display_chefs.py chefs.json     # Affiche le résultat dans le terminal
 
 Un fichier de test prêt à l'emploi est fourni : `test_data.json`
 
-Pour l'utiliser directement :
+Deux options pour le lancer :
+
+### 1. En ligne de commande directe :
 
 ```bash
 python tirage.py test_data.json
 python display_chefs.py chefs.json
+```
+
+### 2. Depuis le script bash interactif :
+
+Lorsque `run_tirage.sh` demande si vous souhaitez charger un fichier JSON existant, répondez **o**,
+puis indiquez :
+
+```bash
+bash run_tirage.sh
+🎲 Lancement du tirage de chefs de coalition
+Souhaitez-vous charger un fichier JSON existant ? (o/n) : o
+Entrez le nom du fichier JSON (ex: data.json) : test_data.json
 ```
 
 Cela permet de valider le bon fonctionnement du tirage sans saisir de données manuellement.
@@ -119,11 +133,13 @@ Cela permet de valider le bon fonctionnement du tirage sans saisir de données m
 ## 👤 Exemple de sortie (terminal)
 
 ```
+
 👑 Résultat du tirage des chefs de coalition :
 
-  - Pinguin : Alice Durand (@adurand) ♀️
-  - Gronouille : Bob Martin (@bmartin) ♂️
-  - Requin : Claire Doe (@cdoe) ♀️
+- Pinguin : Alice Durand (@adurand) ♀️
+- Gronouille : Bob Martin (@bmartin) ♂️
+- Requin : Claire Doe (@cdoe) ♀️
+
 ```
 
 ---
@@ -138,3 +154,7 @@ uniquement les données minimales : `nom`, `prenom`, `login` (@tag), `sexe`.
 ## 📜 Licence
 
 MIT – libre à utiliser, modifier, partager
+
+```
+
+```
