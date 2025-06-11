@@ -29,6 +29,15 @@ def run_tirage(data, log_file):
         if p["coalition"] in coalition_members:
             coalition_members[p["coalition"]].append(p)
 
+    # Vérifier si une coalition est totalement vide
+    empty_coalitions = [c for c, membres in coalition_members.items() if not membres]
+    if empty_coalitions:
+        print(
+            f"❌ Erreur : les coalitions suivantes sont vides : {', '.join(empty_coalitions)}"
+        )
+        print("Merci de corriger le fichier et de relancer le programme.")
+        sys.exit(1)
+
     chefs = {}
     non_chefs = participants.copy()
 
@@ -40,10 +49,8 @@ def run_tirage(data, log_file):
             chefs[c] = chef
             non_chefs.remove(chef)
             log(f"  - {c} → {chef['login']}", log_file)
-        else:
-            log(f"  - {c} → Aucun membre", log_file)
 
-    # Étape 2 : gérer les coalitions vides
+    # Étape 2 : gérer les coalitions sans chef (devrait plus arriver)
     empty = [c for c in coalitions if c not in chefs]
     if empty:
         log("Coalition(s) sans chef après Roll 1 : " + ", ".join(empty), log_file)
