@@ -1,0 +1,65 @@
+{
+  "coalitions": [
+    "Pinguin",
+    "Gronouille",
+    "Requin"
+  ],
+  "participants": [
+    {
+      "nom": "Durand",
+      "prenom": "Alice",
+      "login": "adurand",
+      "sexe": "M",
+      "coalition": "Pinguin"
+    },
+    {
+      "nom": "Martin",
+      "prenom": "Bob",
+      "login": "bmartin",
+      "sexe": "M",
+      "coalition": "Pinguin"
+    },
+    {
+      "nom": "Doe",
+      "prenom": "Claire",
+      "login": "cdoe",
+      "sexe": "M",
+      "coalition": "Gronouille"
+    },
+    {
+      "nom": "Smith",
+      "prenom": "David",
+      "login": "dsmith",
+      "sexe": "M",
+      "coalition": "Gronouille"
+    },
+    {
+      "nom": "Lee",
+      "prenom": "Emma",
+      "login": "elee",
+      "sexe": "M",
+      "coalition": "Requin"
+    },
+    {
+      "nom": "Brown",
+      "prenom": "Frank",
+      "login": "fbrown",
+      "sexe": "M",
+      "coalition": "Requin"
+    },
+    {
+      "nom": "Jones",
+      "prenom": "Chloe",
+      "login": "cjones",
+      "sexe": "M",
+      "coalition": "Gronouille"
+    },
+    {
+      "nom": "White",
+      "prenom": "George",
+      "login": "gwhite",
+      "sexe": "M",
+      "coalition": "Pinguin"
+    }
+  ]
+}

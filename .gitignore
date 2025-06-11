@@ -1,0 +1,4 @@
+bash
+*.json
+!test_data.json
+tirage.log
