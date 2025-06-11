@@ -94,6 +94,21 @@ python display_chefs.py chefs.json     # Affiche le résultat dans le terminal
 
 ---
 
+## 🧪 Tests
+
+Un fichier de test prêt à l'emploi est fourni : `test_data.json`
+
+Pour l'utiliser directement :
+
+```bash
+python tirage.py test_data.json
+python display_chefs.py chefs.json
+```
+
+Cela permet de valider le bon fonctionnement du tirage sans saisir de données manuellement.
+
+---
+
 ## 📂 Fichiers générés
 
 - `chefs.json` : résultat final du tirage (1 chef par coalition)

@@ -9,7 +9,7 @@
       "nom": "Durand",
       "prenom": "Alice",
       "login": "adurand",
-      "sexe": "M",
+      "sexe": "F",
       "coalition": "Pinguin"
     },
     {
@@ -23,7 +23,7 @@
       "nom": "Doe",
       "prenom": "Claire",
       "login": "cdoe",
-      "sexe": "M",
+      "sexe": "F",
       "coalition": "Gronouille"
     },
     {
@@ -37,7 +37,7 @@
       "nom": "Lee",
       "prenom": "Emma",
       "login": "elee",
-      "sexe": "M",
+      "sexe": "F",
       "coalition": "Requin"
     },
     {
@@ -51,7 +51,7 @@
       "nom": "Jones",
       "prenom": "Chloe",
       "login": "cjones",
-      "sexe": "M",
+      "sexe": "F",
       "coalition": "Gronouille"
     },
     {
