@@ -39,7 +39,7 @@ Le fichier doit avoir deux clés principales : `coalitions` et `participants`.
 
 ```json
 {
-  "coalitions": ["Pinguin", "Gronouille", "Requin"],
+  "coalitions": ["Pinguin", "Grenouille", "Requin"],
   "participants": [
     {
       "nom": "Durand",
